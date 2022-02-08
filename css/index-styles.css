@@ -1,0 +1,62 @@
+h1 {
+  text-align: center;
+  font-family: cursive;
+  font-size: 4rem;
+  font-weight: 500;
+  color: #222;
+  margin-bottom: 5rem;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  max-width: 40%;
+  margin: auto;
+}
+
+li {
+  margin-bottom: 1.5rem;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 2rem;
+  color: rgb(32, 65, 167);
+}
+
+a:hover {
+  color: rgb(48, 105, 151);
+}
+
+i {
+  margin-right: 1rem;
+  font-size: 1.6rem;
+  color: #222;
+}
+
+/************************************ Media Queries *******************************/
+@media (max-width: 763px) {
+  ul {
+    max-width: 60%;
+  }
+}
+
+@media (max-width: 559px) {
+  ul {
+    max-width: 70%;
+  }
+}
+
+@media (max-width: 475px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+  ul {
+    max-width: 85%;
+  }
+  li {
+    font-size: 1.5rem;
+  }
+}
